@@ -27,31 +27,3 @@ Customer segmentation is essential for targeted marketing and customer relations
 | **Outlier Sensitivity** | High (Forces outliers into clusters) | Low (Isolates outliers as `-1`) |
 | **Hyperparameters** | Number of clusters ($K$) | Radius (`eps`), Min Samples (`min_samples`) |
 | **Best Used When** | Clean data with defined $K$ | Noisy data with irregular clusters |
-
----
-
-## 🚀 Getting Started
-
-### 1. Prerequisites
-Ensure you have Python 3.8+ installed.
-
-### 2. Installation
-Clone this repository and install the dependencies:
-```bash
-git clone https://github.com/MoBa-create/Customer-Segmentation-KMeans-vs-DBSCAN.git
-cd Customer-Segmentation-KMeans-vs-DBSCAN
-pip install -r requirements.txt
-
-3. Execution
-Run the comparison pipeline script:
-
-	python src/segmentation_comparison.py
-
-🛠️ Project Structure
-
-├── assets/                  # Generated plots and visualization assets
-├── src/
-│   └── segmentation_comparison.py  # Main Python execution script
-├── .gitignore               # Files to ignore in Git
-├── README.md                # Project documentation
-└── requirements.txt         # Required Python libraries
